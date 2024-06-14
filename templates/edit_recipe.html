@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+    <meta charset="UTF-8">
+    <title>Edit Recipe</title>
+</head>
+<body>
+    <h1>Edit Recipe</h1>
+    <form method="post">
+        <label>Title:</label><br>
+        <input type="text" name="title" value="{{ recipe.title }}" required><br><br>
+        <label>Description:</label><br>
+        <textarea name="description">{{ recipe.description }}</textarea><br><br>
+        <label>Ingredients:</label><br>
+        <textarea name="ingredients">{{ recipe.ingredients }}</textarea><br><br>
+        <label>Instructions:</label><br>
+        <textarea name="instructions">{{ recipe.instructions }}</textarea><br><br>
+        <button type="submit">Update Recipe</button>
+    </form>
+    <a href="{{ url_for('index') }}">Cancel</a>
+</body>
+</html>

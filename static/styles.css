@@ -1,0 +1,204 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Navigation bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #0056b3;
+}
+
+/* Highlighted buttons */
+.nav-links .highlight {
+    background-color: #ff5722;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+.nav-links .highlight:hover {
+    background-color: #e64a19;
+}
+
+/* Main content */
+.main-content {
+    margin-top: 120px; /* Adjust based on navbar height */
+}
+
+/* Recipe list */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-title {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.recipe-description {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.recipe-ingredients,
+.recipe-instructions {
+    margin-bottom: 5px;
+}
+
+/* Buttons */
+button,
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+button:hover,
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn {
+    display: inline-block;
+}
+
+/* Highlighted buttons for form actions */
+.btn-highlight {
+    background-color: #ff5722;
+}
+
+.btn-highlight:hover {
+    background-color: #e64a19;
+}
+
+/* Pagination */
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    color: #007bff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #007bff;
+    margin: 0 5px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.pagination a:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.pagination .active {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* Form Styling */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button[type="submit"],
+form .btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+form button[type="submit"]:hover,
+form .btn:hover {
+    background-color: #45a049;
+}
