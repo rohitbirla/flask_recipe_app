@@ -25,15 +25,15 @@ To run this application locally, follow these steps:
 
 1. Clone the repository:
 
-`git clone https://github.com/your_username/flask-recipe-app.git 
-cd flask-recipe-app
+`git clone https://github.com/your_username/flask-recipe-app.git`
+`cd flask-recipe-app`
 
 2. Install dependencies:
 It's recommended to use a virtual environment (e.g., venv) to manage dependencies.
 
-python -m venv venv
-. venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-pip install -r requirements.txt
+`python -m venv venv`
+`. venv/bin/activate`  # On Windows, use `venv\Scripts\activate`
+`pip install -r requirements.txt`
 
 3. Set up the database:
 Ensure you have SQLite installed locally. Initialize the database with the following commands:
