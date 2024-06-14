@@ -31,19 +31,19 @@ To run this application locally, follow these steps:
 2. Install dependencies:
 It's recommended to use a virtual environment (e.g., venv) to manage dependencies.
 
--`python -m venv venv`
--`. venv/bin/activate`  # On Windows, use `venv\Scripts\activate`
--`pip install -r requirements.txt`
+- `python -m venv venv`
+- `. venv/bin/activate`  # On Windows, use `venv\Scripts\activate`
+- `pip install -r requirements.txt`
 
 3. Set up the database:
 Ensure you have SQLite installed locally. Initialize the database with the following commands:
 
--python
-->>> from app import db
-->>> db.create_all()
-->>> exit()
+- python
+- >>> from app import db
+- >>> db.create_all()
+- >>> exit()
 
 4.Run the application:
 
--`flask run`
+- `flask run`
 The application should now be accessible at http://localhost:5000.
