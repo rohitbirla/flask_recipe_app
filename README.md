@@ -24,7 +24,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/flask_recipe_app.git
+git clone https://github.com/rohitbirla/flask_recipe_app.git
 cd flask_recipe_app
 Set up virtual environment (optional but recommended):
 
