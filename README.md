@@ -1,7 +1,9 @@
-Flask Recipe App
+# Flask Recipe App
+
 This is a Flask web application for managing recipes. Users can register, log in, create, edit, and delete recipes. It includes authentication and authorization features using Flask-Login and SQLAlchemy for database management.
 
-Overview
+# Overview
+
 The Flask Recipe App allows users to perform the following actions:
 
 Register: Users can create an account with a username and password.
@@ -13,7 +15,7 @@ Search Recipes: Users can search for recipes by title or ingredients.
 Setup Instructions
 To run this project locally, follow these steps:
 
-Prerequisites
+#Prerequisites
 Python (3.6 or higher)
 pip (Python package installer)
 Git (optional, for version control)
