@@ -1,8 +1,8 @@
-Flask Recipe App
+# Flask Recipe App
 This is a Flask-based web application for managing recipes. Users can register, log in, add, edit, and delete recipes. Each recipe includes a title, description, list of ingredients, and cooking instructions. The application uses SQLAlchemy for database management and Flask-Login for user authentication.
 
-Features
-User Management:
+# Features
+- User Management:
 
 User registration and login.
 Authentication with Flask-Login.
