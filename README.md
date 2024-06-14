@@ -25,7 +25,7 @@ To run this application locally, follow these steps:
 
 1. Clone the repository:
 
-git clone https://github.com/your_username/flask-recipe-app.git
+. git clone https://github.com/your_username/flask-recipe-app.git
 cd flask-recipe-app
 Install dependencies:
 
